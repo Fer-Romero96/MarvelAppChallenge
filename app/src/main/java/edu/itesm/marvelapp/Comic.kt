@@ -1,7 +1,6 @@
 package edu.itesm.marvelapp
 
 data class Results(
-
     var data: Data
 )
 
@@ -11,7 +10,7 @@ data class Data(
 
 data class Comic(
     val title: String,
-    val description: String,
+    var description: String,
     val thumbnail: Thumbnail
 )
 
